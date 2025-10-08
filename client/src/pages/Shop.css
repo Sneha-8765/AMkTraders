@@ -1,0 +1,72 @@
+.shop-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;  /* Light background */
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  /* Responsive */
+  gap: 20px;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Shadow for depth */
+  padding: 15px;
+  transition: transform 0.3s ease;  /* Hover effect */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);  /* Lift on hover */
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;  /* Fit nicely */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: #4CAF50;  /* Green accent for salt/nature theme */
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1.1em;
+  color: #666;
+  font-weight: bold;
+}
+
+button {
+  background-color: #4CAF50;  /* Green button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.cart-summary {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #e0f2f1;
+  border-radius: 5px;
+}

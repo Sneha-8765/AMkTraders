@@ -1,0 +1,59 @@
+/* src/pages/Service.css */
+
+.services-section {
+  background-color: #fefbfb;
+  padding: 100px 100px;
+  text-align: center;
+}
+
+.services-heading h2 {
+  font-size: 2.2rem;
+  color: red;
+  margin-bottom: 0.2rem;
+}
+
+.services-heading h3 {
+  font-size: 1.8rem;
+  color: red;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.service-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 300px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+.service-card h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.learn-more {
+  color: red;
+  font-weight: 600;
+  text-decoration: none;
+}
